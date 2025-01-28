@@ -299,7 +299,7 @@ export const SING_BOX_CONFIG = {
 		servers: [
 			{
 				tag: "dns_proxy",
-				address: "https://dns.google/dns-query",
+				address: "quic://e89618de.d.adguard-dns.com",
 				address_resolver: "dns_resolver",
 				strategy: "ipv4_only",
 				detour: "🚀 节点选择"
