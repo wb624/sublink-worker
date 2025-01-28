@@ -299,7 +299,7 @@ export const SING_BOX_CONFIG = {
 		servers: [
 			{
 				tag: "dns_proxy",
-				address: "quic://e89618de.d.adguard-dns.com",
+				address: "tls://e89618de.d.adguard-dns.com",
 				address_resolver: "dns_resolver",
 				strategy: "ipv4_only",
 				detour: "🚀 节点选择"
