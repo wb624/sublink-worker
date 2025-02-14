@@ -299,7 +299,7 @@ export const SING_BOX_CONFIG = {
 		servers: [
 			{
 				tag: "dns_proxy",
-				address: "tls://1.1.1.1",
+				address: "https://dns.google/dns-query",
 				address_resolver: "dns_resolver",
 				strategy: "ipv4_only",
 				detour: "🚀 节点选择"
